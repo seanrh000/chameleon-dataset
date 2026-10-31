@@ -2,7 +2,7 @@
 
 ## Approach
 
-This offline engine generates two layout candidates for each task: a rule-based layout (v0.4) and a locally trained Transformer layout with relation-aware refinement. Both candidates are validated and rendered with the supplied renderer. A deterministic heuristic scores text fit, readability, collisions, element relationships, hierarchy, margins, and foreground coverage, then selects a valid candidate. Transparent image regions are excluded from relevant visual-bound estimates.
+This offline engine generates two layout candidates for each task: a rule-based layout (v0.4) and a locally trained Transformer layout with relation-aware refinement. Both candidates are validated and rendered with the supplied renderer. The deterministic `candidate_quality` heuristic (v3) scores text fit, readability, collisions, element relationships, hierarchy, margins, and foreground coverage, then selects a valid candidate. It also compares image/text prominence with the source and checks conservatively inferred text reading order, allowing vertical-to-horizontal reflow. Transparent image regions are excluded from relevant visual-bound estimates.
 
 The selection score is an internal heuristic, not the official competition score or a calibrated probability of human preference. Small score differences and complex layouts still require visual review. The engine uses general layout rules and does not select results by task filename or sample ID.
 
@@ -63,4 +63,4 @@ To preserve both candidates and their selection reports, use:
 python -m engine.resize_final --input input --output review-output
 ```
 
-`review-output` must not already exist. This diagnostic command is optional: the standard container entry point also generates and selects between both candidates.
+`review-output` must not already exist. This diagnostic command is optional: the standard container entry point also generates and selects between both candidates using v3. Candidate scores in `selection.json` include the scorer version and diagnostics for source-relative prominence and inferred text flow.

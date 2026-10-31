@@ -7,7 +7,7 @@ See [the package README](../README.md) for setup, approach, verification limits,
 | `main.py` | Standard task-directory entry point; writes JSON and PNG outputs. |
 | `resize.py` | Public resize function, connected to the final selector. |
 | `resize_selector_v2.py` | Generates, validates, renders, scores, and selects two candidates. |
-| `candidate_quality_v2.py` | Heuristic quality scoring with alpha-aware image bounds. |
+| `candidate_quality.py` | Quality scoring and candidate selection helpers, including alpha-aware bounds, source-relative image/text prominence, and conservative text-flow relationships (v3). |
 | `resize_v0_4.py`, `effects.py` | Active rule-based candidate generator and effects handling. |
 | `resize_relations_v2.py`, `relation_refiner_v3.py` | Transformer candidate and relationship refinement. |
 | `inference_bridge.py` | Subprocess bridge to the bundled inference package. |

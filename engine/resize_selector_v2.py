@@ -2,7 +2,7 @@
 import argparse,json,subprocess,sys,shutil,time,os
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-from .candidate_quality_v2 import score,choose
+from .candidate_quality import score,choose
 from renderer.converter.convert import render_design_to_png
 ROOT=Path(__file__).resolve().parents[1]
 VERSION='selector-v2-alpha'
