@@ -1,0 +1,25 @@
+{
+  "version": "final-1.0-submission",
+  "files": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate_quality_v2.py": "0fe89dbafd3b3006b2542b39d1646a730ed111a75d05178c1dbc99c8d4453b37",
+    "chameleon_torch/__init__.py": "ec0cd02496160026576864dea0486ca1881ab0b5c0ad0e8895ea98447704644d",
+    "chameleon_torch/data.py": "d477216a85649f6c3058c95b5eac3745636439f1bbc06f2985d4bda346d26464",
+    "chameleon_torch/geometry.py": "97a5343013a17c67d8e61fb6ac37a5ef3a5c1fbcc800e1fc0055959d6b4762bb",
+    "chameleon_torch/model.py": "00aa3ced99284dc32eb0835aa616b067e7790ea9899cbe1e180cff80860785db",
+    "chameleon_torch/runtime.py": "f5ebfc88bd413f47b7702e3d31aa6420d5f4be5f2dc11033876fe802b96fb174",
+    "chameleon_torch/tensors.py": "23d4f4bf09cac4fe896d2996d65e91e01600925ad25e06e10df0537aae936a8a",
+    "chameleon_torch/worker.py": "f4a4c8639f02a964d60f11d0cfb8734276f7b3485c6eeefcd6c52ae812c21418",
+    "effects.py": "5a8966fcf66a57f85e4d55265e61e658800f3a3fd67077eb1293ff320511409f",
+    "inference_bridge.py": "c13b8c09c32fc717be72bf195d8c11cb34006f250b9ca5c6572033baeaf4331c",
+    "main.py": "753219b563470276ad7009f3570c13c4faf94af6d31251a8c76b8fee596bace7",
+    "models/relations_v1.pt": "15ee0e3e1057f6f274540d687a683d303644f02264fc7b4ba396e826ac31441e",
+    "README.md": "0c679588f32bc3d7b141213fbc91f50d520c0ab00f108d092e4149d3bbe54bfd",
+    "relation_refiner_v3.py": "415f03e58d04932ea99375c7a367c84d86911f81baba0f02ac4868025e46c296",
+    "resize.py": "00963f2a2d06303d2638a569aee667a605d31989721fc4e523cff76af4f622b2",
+    "resize_final.py": "f3af8053315f5c3f38271f113c9dc10dcd455c76f82297a89c5039aacd8f7a00",
+    "resize_relations_v2.py": "cf6e3ee04241008cb2592f5b215b711bd22819c3d8db748c515bf991ab233049",
+    "resize_selector_v2.py": "96c91d2b93b078ce7c8b05285767a4acb7d8a702e65e58b1e938d58c12c48415",
+    "resize_v0_4.py": "e38ea1cb46046c134ec6554e508bb1ed3ffd6ff011ec6aba66273f56f8dec8d8"
+  }
+}

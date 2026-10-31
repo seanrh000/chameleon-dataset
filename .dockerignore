@@ -1,0 +1,13 @@
+# Only submission runtime assets enter the Docker build context.
+**
+!Dockerfile
+!requirements.txt
+!chameleon_design_schema_v0.9.json
+!brand_kit/
+!brand_kit/**
+!renderer/
+!renderer/**
+!engine/
+!engine/**
+**/__pycache__/
+**/*.pyc
